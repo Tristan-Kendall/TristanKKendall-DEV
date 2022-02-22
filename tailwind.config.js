@@ -1,11 +1,14 @@
 module.exports = {
-  purge: ['./index.html'],
-  darkMode: 'media', // or 'media' or 'class'
+content: [
+  './index.html',
+  './aboutme.html',
+],
+
+  //OLD CONFIG(WORKS KINDA??): purge: ['./index.html'], 
+  
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {},
-  },
+
   plugins: [],
 }
